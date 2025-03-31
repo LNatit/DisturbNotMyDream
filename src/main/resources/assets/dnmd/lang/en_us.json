@@ -1,6 +1,3 @@
 {
-  "dnmd": "Disturb Not My Dream",
-  "itemGroup.dnmd": "Example Mod Tab",
-  "block.dnmd.example_block": "Example Block",
-  "item.dnmd.example_item": "Example Item"
+  "dnmd": "Disturb Not My Dream"
 }
