@@ -1,0 +1,6 @@
+{
+    "package": "com.lnatit.dnmd.mixin",
+    "mixins": [
+        "DnmdMixinBedBlock"
+    ]
+}
