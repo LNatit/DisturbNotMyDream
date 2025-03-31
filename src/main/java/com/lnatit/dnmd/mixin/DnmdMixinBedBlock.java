@@ -22,7 +22,7 @@ public class DnmdMixinBedBlock
     private static void onSleepBlocked(Player player, Player.BedSleepingProblem bedSleepingProblem, CallbackInfo ci) {
         if (bedSleepingProblem == Player.BedSleepingProblem.NOT_SAFE && player instanceof ServerPlayer serverPlayer)
         {
-            DisturbNotMyDream.Server.addGrumpy(serverPlayer);
+            DisturbNotMyDream.addGrumpy(serverPlayer);
         }
     }
 }
