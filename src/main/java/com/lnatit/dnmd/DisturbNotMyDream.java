@@ -69,7 +69,7 @@ public class DisturbNotMyDream
                 try {
                     String[] str = effectDef.split(",", 3);
                     str = Arrays.stream(str).map(String::trim).toArray(String[]::new);
-                    Optional<Holder.Reference<MobEffect>> effect = BuiltInRegistries.MOB_EFFECT.getHolder(ResourceLocation.parse(str[0]));
+                    Optional<Holder.Reference<MobEffect>> effect = BuiltInRegistries.MOB_EFFECT.get(ResourceLocation.parse(str[0]));
                     int duration = Integer.parseInt(str[1]);
                     int amplifier = Integer.parseInt(str[2]) - 1;
                     if (effect.isPresent()) {
